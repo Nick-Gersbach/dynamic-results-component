@@ -37,6 +37,48 @@ p {
 color: #CAC9FF;
 }
 
+.navy-txt {
+  color: #303b59;
+}
+
+.faded-txt {
+  color: #303b59;
+  opacity: .5;
+}
+
+.red-txt {
+  color:#FF5555;
+}
+
+.yellow-txt {
+  color: #FFB21E;
+}
+
+.green-txt {
+  color: #00BB8F;
+}
+
+purple-txt {
+  color: #1125D6
+;
+}
+
+.red-bg {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+}
+
+.yellow-bg {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+}
+
+.green-bg {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+}
+
+.purple-bg {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+}
+
 .results-container {
   display: flex;
   align-items: center;
@@ -126,10 +168,37 @@ Summary Side
 
 .summary-stats-container {
 padding: 0 3rem;
+
 }
 
-.reaction {
+.summary-stat {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem;
+  height: 56px;
+  width: 288px;
+  margin: 1.3rem 0rem;
+  border-radius: 12px;
+  
+}
+
+.icon-and-text {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  padding-right: 8px;
+}
+
+.continue-btn {
+  background-color: #303B59;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  height: 56px;
+  width: 288px;
+  border-radius: 128px;
+  margin: 1rem 0rem;
 }
