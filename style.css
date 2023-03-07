@@ -62,6 +62,7 @@ Results Side
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 50%;
 }
 
 .result-number-container {
@@ -80,4 +81,55 @@ h3.result-number-heading {
   color: white;
   font-size: 72px;
   font-weight: 800;
+}
+
+.p-100 {
+  color: #D9D9D9;
+  font-weight: bold;
+  opacity: .52;
+}
+
+.result-text-container {
+  text-align: center;
+  padding: 1.5rem 0rem;
+}
+
+.result-text-container h3 {
+  color: white;
+  font-size: 32px;
+}
+
+.result-text-container p {
+  color: #CAC9FF;
+  padding: 2rem 3.5rem;
+}
+
+/* 
+
+
+Summary Side
+
+
+*/
+
+.summary-container {
+  background-color: white;
+  border-radius: 0px 32px 32px 0px;
+  width: 50%;
+}
+
+.summary-container h2 {
+  color: #303B59;
+  font-size: 24px;
+  padding: 2rem;
+}
+
+.summary-stats-container {
+padding: 0 3rem;
+}
+
+.reaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
